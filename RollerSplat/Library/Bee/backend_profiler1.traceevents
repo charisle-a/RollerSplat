@@ -1,0 +1,497 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665283071556147, "dur":2239, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283071558402, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1665283071558537, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1665283071558571, "dur":301, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1665283071558912, "dur":1143, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283071560055, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074712977, "dur":138, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713115, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713136, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713144, "dur":126, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713270, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713274, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713288, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713291, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713304, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713347, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074713358, "dur":3231, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665283071560279, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071560281, "dur":9863, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071570159, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665283071570162, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071570874, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665283071570880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071581496, "dur":11609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665283071593108, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665283071593252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071593262, "dur":290812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665283071884143, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283071884299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283071884308, "dur":391060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072275436, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072275513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072275576, "dur":49140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072324776, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072324856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072324867, "dur":86579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072411532, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072411603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072411612, "dur":117975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072529650, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072529719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072529729, "dur":50205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072580063, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072580163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072580174, "dur":59560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072639797, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072639864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072639875, "dur":87002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072726944, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072727024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072727034, "dur":71398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072798504, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072798568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072798579, "dur":48817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072847457, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072847517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072847527, "dur":33011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072880598, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072880673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072880714, "dur":28684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072909481, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072909553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072909564, "dur":66540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072976161, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283072976231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283072976241, "dur":34791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073011096, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073011159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073011170, "dur":30195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073041432, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073041494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073041503, "dur":36067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073077636, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073077709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073077719, "dur":80754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073158534, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073158607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073158618, "dur":30038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073188723, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073188785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073188809, "dur":70670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073259538, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073259600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073259610, "dur":173845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073433514, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073433582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073433593, "dur":108624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073542284, "dur":1193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073543484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073543497, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073545152, "dur":70080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073615240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073615253, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073617831, "dur":6655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073624495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073624508, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073626166, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073626251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073626260, "dur":332489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073958808, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283073958867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283073958875, "dur":238256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283074197193, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283074197256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283074197266, "dur":137971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283074335295, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283074335356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665283074335367, "dur":276722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665283074612159, "dur":100698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283071560357, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283071560358, "dur":9797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283071570161, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1665283071570446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283071574317, "dur":121744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1665283071696145, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665283071696325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283071696337, "dur":386475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1665283072082879, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665283072083034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072093784, "dur":258255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1665283072352187, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072352304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072352316, "dur":58913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072411292, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072411376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072411386, "dur":47486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072458937, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072459003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072459043, "dur":43735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072502846, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072502914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072502925, "dur":48492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072551485, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072551545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072551556, "dur":49698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072601311, "dur":167128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072768448, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072768461, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072770464, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072770538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072770549, "dur":28183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072798801, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072798892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072798902, "dur":46352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072845322, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072845385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072845395, "dur":47926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072893394, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072893455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072893466, "dur":45373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072938895, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072938966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072938975, "dur":55439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072994483, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283072994546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283072994557, "dur":44921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073039559, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073039629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073039641, "dur":39031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073078727, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073078790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073078798, "dur":62292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073141160, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073141231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073141243, "dur":163911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073305213, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073305278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073305289, "dur":49852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073355208, "dur":120255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073475469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073475481, "dur":4342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073479881, "dur":1073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073480960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073480971, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073482235, "dur":62539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073544781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073544792, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073546464, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073547420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073547429, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073549220, "dur":66679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073615905, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073615917, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073618059, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073618118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073618126, "dur":107692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073725874, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073725945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073725955, "dur":188220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073914237, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073914301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073914311, "dur":43111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073957483, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283073957545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283073957557, "dur":42547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283074000163, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283074000226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283074000236, "dur":234989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283074235288, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283074235353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665283074235363, "dur":154746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665283074390167, "dur":322749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071560342, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071560344, "dur":9824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071570170, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665283071570452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071574776, "dur":15833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665283071590680, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665283071590851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071590865, "dur":12693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665283071603624, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665283071603787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071604755, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665283071608771, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665283071609417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071609539, "dur":86557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665283071696171, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665283071696356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071697282, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665283071700701, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665283071700853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071700953, "dur":15262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1665283071716301, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665283071716454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283071716497, "dur":315921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1665283072032484, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665283072032583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072032592, "dur":197533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665283072230184, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072230257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072234019, "dur":98779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072332857, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072332934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072332984, "dur":77794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072410845, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072410931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072410942, "dur":69487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072480517, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072480581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072480592, "dur":29483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072510134, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072510199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072510211, "dur":76878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072587153, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072587215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072587226, "dur":184556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072771840, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072771899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072771910, "dur":68563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072840532, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072840593, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072840610, "dur":35933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072876604, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072876672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072876682, "dur":32999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072909750, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072909820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072909830, "dur":27975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072937868, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072937944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072937955, "dur":61753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072999770, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283072999831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283072999841, "dur":133342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073133245, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073133313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073133324, "dur":35868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073169255, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073169316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073169326, "dur":52175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073221559, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073221621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073221633, "dur":33329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073255026, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073255098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073255109, "dur":100244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073355415, "dur":116779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073472203, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073472217, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073474749, "dur":285517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073760275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073760287, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073762498, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073762558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073762567, "dur":178551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073941178, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283073941239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283073941249, "dur":122403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074063710, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074063772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283074063782, "dur":48917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074112764, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074112831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283074112841, "dur":161425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074274327, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074274387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283074274398, "dur":49897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074324356, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074324422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665283074324432, "dur":388331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665283074712841, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1665283074712845, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071560399, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071560400, "dur":9758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071570166, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665283071570460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071581701, "dur":10446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665283071592234, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071592403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071592413, "dur":16881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071609391, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665283071609560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071609602, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665283071612876, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071613034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071613044, "dur":83172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071696292, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071696472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071696738, "dur":15039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071711918, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071712099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071712111, "dur":13716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071725905, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071726061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071726072, "dur":11160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1665283071737295, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1665283071737441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071737453, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1665283071742363, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283071742546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071742869, "dur":52525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283071795458, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283071795624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071795711, "dur":166092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283071961871, "dur":873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665283071962751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283071962760, "dur":270374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1665283072233549, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072233669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072234291, "dur":142220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072376570, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072376638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072376648, "dur":50314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072427020, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072427097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072427107, "dur":46085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072473319, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072473398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072473410, "dur":51711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072525184, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072525245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072525255, "dur":100463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072625775, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072625835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072625846, "dur":32280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072658186, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072658249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072658377, "dur":68261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072726707, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072726777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072726789, "dur":122603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072849457, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072849521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072849531, "dur":45336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072894930, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072894990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072894999, "dur":65167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072960226, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072960290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072960300, "dur":34480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072994896, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283072994973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283072994983, "dur":46133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073041180, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073041242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073041251, "dur":36676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073077988, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073078051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073078061, "dur":36572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073114691, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073114751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073114794, "dur":36916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073151769, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073151834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073151845, "dur":31205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073183113, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073183175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073183186, "dur":94815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073278059, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073278120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073278131, "dur":76592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073354793, "dur":80014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073434814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073434825, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073436196, "dur":113436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073549638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073549648, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073551394, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073552708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073552719, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073554203, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073555186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073555196, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073557001, "dur":35219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073592229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073592277, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073593966, "dur":3215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073597189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073597202, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073598598, "dur":34528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073633135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073633147, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073634635, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073634694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073634702, "dur":73990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073708750, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073708812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073708823, "dur":107392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073816274, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073816334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073816345, "dur":92425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073908828, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283073908887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283073908897, "dur":91679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074000634, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074000693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074000703, "dur":212545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074213310, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074213373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074213384, "dur":132068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074345516, "dur":4701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074350224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074350237, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665283074351879, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074352226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074352802, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074354193, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1665283074354254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074354313, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1665283074356024, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074356083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074356091, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074357600, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074357662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074357670, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074358919, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074358976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074358983, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074360180, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074360239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074360277, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074363008, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074363066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074363075, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074364812, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074364977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074364985, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074366176, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074367286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074367295, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1665283074368579, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074368636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074368644, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074370273, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074370330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074370337, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074372379, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074372452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074372462, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074374179, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1665283074374237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074374244, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1665283074375487, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074375545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074375552, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074376990, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1665283074377045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074377052, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1665283074378335, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074378395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074378402, "dur":1626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1665283074380093, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1665283074380152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074380159, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1665283074381436, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074381495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074381502, "dur":5972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1665283074387533, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665283074387592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074387601, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1665283074389134, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283074389311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665283074389319, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kitsuneem/Desktop/GameBuild/RollerSplat_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1665283074390743, "dur":322146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665283074719039, "dur":3140, "ph":"X", "name": "ProfilerWriteOutput" }
+,
